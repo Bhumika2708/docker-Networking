@@ -1,8 +1,6 @@
 # Docker Microservices Application
 
-A simple microservices-based web application built using Docker, consisting of a React frontend and a Flask backend.
-
-The project demonstrates containerization, service communication, and real-world Docker networking concepts.
+A simple microservices-based web application built using Docker, consisting of a React frontend and a Flask backend. The project demonstrates containerization, service communication, and real-world Docker networking concepts.
 
 ---
 
