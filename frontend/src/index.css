@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animated gradient */
+.animated-bg {
+  background: linear-gradient(
+    -45deg,
+    #2563eb, /* blue */
+    #7c3aed, /* purple */
+    #22c55e, /* green */
+    #1e3a8a  /* deep blue */
+  );
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
